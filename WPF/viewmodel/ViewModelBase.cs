@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace ZAR.ViewModel
+namespace SJB.ZAR.WPF.ViewModel
 	{
 	public class ViewModelBase : INotifyPropertyChanged
 		{

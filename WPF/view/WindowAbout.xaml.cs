@@ -2,24 +2,30 @@
 using System.Windows;
 using System.Reflection;
 
-namespace ZAR.View
-	{
-	public partial class WindowAbout : Window
-		{
-		String appname = Assembly.GetExecutingAssembly().GetName().Name;
-		String appversion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+namespace SJB.ZAR.WPF.View
+  {
+  public partial class WindowAbout : Window
+    {
+    String appname = Assembly.GetExecutingAssembly().GetName().Name;
+    String appversion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
-		public WindowAbout()
-			{
-			InitializeComponent();
+    public WindowAbout()
+      {
+      InitializeComponent();
 
-			lblApp.Content = appname;
-			lblVer.Content = "v" + appversion;
-			}
+            this.Title = "About...";
+            this.ShowInTaskbar = false;
+            this.ResizeMode = ResizeMode.NoResize;
+            this.Height = 240;
+            this.Width = 240;
 
-		private void Button_OK_Click(object sender, RoutedEventArgs e)
-			{
-			this.Close();
-			}
-		}
-	}
+            lblApp.Content = appname;
+            lblVer.Content = "v" + appversion;
+      }
+
+    private void Button_OK_Click(object sender, RoutedEventArgs e)
+      {
+      this.Close();
+      }
+    }
+  }

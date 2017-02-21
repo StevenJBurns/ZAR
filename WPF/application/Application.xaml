@@ -1,3 +1,5 @@
-﻿<Application xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="ZAR.Application">
+﻿<Application xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="SJB.ZAR.WPF.Application">
 
 </Application>

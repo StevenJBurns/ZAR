@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ZAR.Model
+namespace SJB.ZAR.WPF.Model
 	{
 	public class Dropzone
 		{

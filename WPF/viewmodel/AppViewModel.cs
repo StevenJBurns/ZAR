@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace ZAR.ViewModel
+namespace SJB.ZAR.WPF.ViewModel
 	{
 	public class AppViewModel : ViewModelBase
 		{

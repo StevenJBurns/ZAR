@@ -1,7 +1,7 @@
-﻿<Application x:Class="ZAR.WPF.App"
+﻿<Application x:Class="SJB.ZAR.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ZAR.WPF"
+             xmlns:local="clr-namespace:SJB.ZAR.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
