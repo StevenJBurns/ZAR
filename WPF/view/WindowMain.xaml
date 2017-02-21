@@ -1,33 +1,32 @@
-﻿<Window
-    x:Class="SJB.ZAR.WPF.View.WindowMain"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"    
-    Icon="/assets/ZAR.ico">
+﻿<Window x:Class="SJB.ZAR.WPF.View.WindowMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/ZAR;component/assets/ZAR.ico">
     <Window.Background>
-        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-            <GradientStop Color="#C0C0C0" Offset="1.00" />
-            <GradientStop Color="#696969" Offset="0.00" />
-        </LinearGradientBrush>
+      <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#C0C0C0" Offset="1.00" />
+        <GradientStop Color="#696969" Offset="0.00" />
+      </LinearGradientBrush>
     </Window.Background>
     <Grid>
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition />
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto" MinHeight="20" />
-			<RowDefinition Height="100*" />
-			<RowDefinition Height="Auto" MinHeight="17.5" />
-		</Grid.RowDefinitions>
-		<Menu Grid.Row="0" Height="Auto">
-			<MenuItem Header="File">
-				<MenuItem Header="Open"  />
-				<MenuItem Header="Close" />
-			</MenuItem>
-			<MenuItem Header="Options">
-				<MenuItem Header="Options" />
-			</MenuItem>
-			<MenuItem Header="About">
-				<MenuItem Header="About" />
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" MinHeight="20" />
+	  		<RowDefinition Height="100*" />
+		  	<RowDefinition Height="Auto" MinHeight="17.5" />
+  		</Grid.RowDefinitions>
+      <Menu Grid.Row="0" Height="Auto">
+        <MenuItem Header="File">
+        <MenuItem Header="Open" />
+        <MenuItem Header="Close" />
+      </MenuItem>
+      <MenuItem Header="Options">
+        <MenuItem Header="Options" />
+      </MenuItem>
+      <MenuItem Header="About">
+      <MenuItem Header="About" />
 			</MenuItem>
 		</Menu>
 		<Grid Grid.Row="1">
@@ -67,17 +66,17 @@
 								</Style>
 							</StackPanel.Resources>
 							<Border>
-								<Image Source="/ZAR;component/assets/C-130.png">
+								<Image Source="../assets/C-130.png">
 									<Image.ToolTip>Aircraft Type : C-130</Image.ToolTip>
 								</Image>
 							</Border>
 							<Border>
-								<Image Source="/ZAR;component/assets/c-17.png">
+								<Image Source="../assets/C-17.png">
 									<Image.ToolTip>Aircraft Type : C-17</Image.ToolTip>
 								</Image>
 							</Border>
-							<Border Visibility="Collapsed">
-								<Image Source="/ZAR;component/assets/c-5.png">
+							<Border Visibility="Visible">
+								<Image Source="../assets/C-5.png">
 									<Image.ToolTip>Aircraft Type : C-5</Image.ToolTip>
 								</Image>
 							</Border>				

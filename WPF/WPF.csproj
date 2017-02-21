@@ -120,10 +120,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\C-130.png" />
-    <Content Include="assets\C-17.png" />
-    <Content Include="assets\C-5.png" />
-    <Content Include="assets\ZAR.ico" />
+    <Resource Include="assets\C-130.png" />
+    <Resource Include="assets\C-17.png" />
+    <Resource Include="assets\C-5.png" />
+    <Resource Include="assets\ZAR.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
